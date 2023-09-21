@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addUser controller should add a new user 1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "_id": "123",
+        "password": "testpass_customer",
+        "security": "testsecurity",
+        "userType": "customer",
+        "username": "testuser",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
